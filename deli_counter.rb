@@ -31,6 +31,6 @@ end
 
 def give_a_number(katz_deli)
   counter = 0
-  counter ++
-  
+  counter++
+
 end
