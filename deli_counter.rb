@@ -28,3 +28,9 @@ def now_serving(current_customer) #this method states who is being served
     current_customer.shift #shift retrieves and subsequently removes the first customer from the line
   end
 end
+
+def give_a_number(katz_deli)
+  counter = 0
+  counter ++
+  
+end
