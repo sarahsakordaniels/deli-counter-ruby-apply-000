@@ -33,5 +33,5 @@ def give_a_number(katz_deli)
   counter = 0
   counter++
   katz_deli << counter
-
+puts "The value of counter is #{counter}"
 end
