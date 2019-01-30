@@ -9,7 +9,7 @@ def line(current_line) # the argument represents the number of people in line
     current_line.each.with_index(1) do |customer_name, index| #this establishes starting at index
       katz_deli << "#{index}. #{customer_name}" #the empty line will give an index and a name when there are people in line
     end
-    puts "The line is currently: #{katz_deli.join}" #this will state who is in line, turns the array into a string
+    puts "The line is currently: #{katz_deli.join(" ")}" #this will state who is in line, turns the array into a string
   end
 end
 
